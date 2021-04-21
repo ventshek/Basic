@@ -30,5 +30,5 @@ wget https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec167
 mv server.jar minecraft_server_1.16.5.jar
 wget https://github.com/ventshek/Basic/raw/main/eula.txt
 wget https://github.com/ventshek/Basic/raw/main/server.properties
-wget https://github.com/ventshek/Basic/raw/main/ops.json
+#wget https://github.com/ventshek/Basic/raw/main/ops.json
 java -Xms1024M -Xmx1024G -jar minecraft_server_1.16.5.jar nogui
