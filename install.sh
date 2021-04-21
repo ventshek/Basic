@@ -3,11 +3,11 @@ sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y dist-upgrade
 sudo apt-get -y ufw
-sudo ufw allow 25575
+#sudo ufw allow 25575
 sudo ufw allow 25565
 #sudo ufw allow 80
 sudo apt-get install -y openjdk-8-jre-headless
-sudo apt-get install -y apache2 sqlite
+#sudo apt-get install -y apache2 sqlite
 #sudo apt-get install -y php7.4 php7.4-sqlite php7.4-gd
 #sudo apt-get install -y openjdk-8-jdk
 #sudo apt-get install -y nano
